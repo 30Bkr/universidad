@@ -1,0 +1,55 @@
+---
+import Layout from '../../layouts/Layout.astro';
+---
+<Layout>
+  <div id="contenedor_incio">
+    <h1>0800-AMBIENTE</h1>
+    <a href="/consulta">🔍Consultar Denuncia</a>
+    <a href="/login">🛂Acceder/Iniciar sesion</a>
+    <div class="final">
+      <p>Contactar</p>
+    </div>
+  </div>
+</Layout>
+<style>
+#contenedor_incio{
+  position: relative;
+  width: 340px;
+  height: 360px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  border-radius: 8px;
+  box-shadow: 0px 0px 8px 2px gray;
+}
+h1{
+  width: 100%;
+  background: #16404D;
+  border-radius: 8px;
+  margin: 0;
+  height:64px;
+  margin-bottom: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a{
+  width: 80%;
+  height: 64px;
+  background: #e1e1e1;
+  margin-bottom: 24px;
+  border-radius: 8px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: large;
+}
+.final{
+  position: absolute;
+  bottom: 0px;
+}
+</style>
